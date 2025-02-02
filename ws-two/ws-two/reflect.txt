@@ -1,0 +1,41 @@
+/***********************************************************************
+
+I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+
+Name: Mehrab Jalil Abir
+email: mjabir@myseneca.ca
+Student ID: 164479230
+Section: NRB
+Date: Jan 25, 2025
+
+/////////////////////////////////////////////////////////////////
+***********************************************************************/
+
+In this workshop, we worked with pointer reference, function overloading, dynamic array and compound types (structure). We were given 2 modules that contain functionality of the topics mentioned. I have been able to learn how to use those concepts in coding throughout this workshop. An explanation of what I know or learned of each topics:  
+
+Reference: when we pass a variable to a function, we can pass them in two ways, either by value or by reference. When we pass an argument by value, a copy of that variable is made in the memory and sent to the function. The function works with that copy. If the variable gets changed inside the function, we do not get the change in the main function unless we explicitly return that variable and receive it in the main function. This creates an unnecessary copy of the variable which can impact the efficiency of the program when working with big data. But when we pass the variable by reference to the function, the function works directly with the variable of the main function, without making a copy. As a result, it is ensured that no extra memory is used unnecessarily and also, if we make any change to the value of the variable inside the function, the change happens in the main function without needing of returning that variable. In this workshop, the getInt function which uses three parameters, one of them is 'num' which is declared and initiated in the main function, passed to getInt function by reference, then in the input.cpp file, it is assigned another number. In that case, the getInt function directly works with 'num' variable of the main function, without making any copy of it.
+
+Dynamic memory allocation of array: Array can be declared in two ways, statically and dynamically. When an array is declared statically, we must give it a constant size and this size cannot be updated during runtime. This is a problem when we may need to change the size of the array during runtime or we are uncertain about how much data we going to work with in that array, as we are not able to resize the array during runtime. But when we allocate memory dynamically for an array, we do not necessarily use any constant size for the array, rather we can change the size during runtime according to our need. In this workshop, we used a function that reverse an array of some numbers of double type given as input. We declared and used a dynamic array for that using the ‘new’ keyword. However, we need to delete or deallocate the dynamic array after use and release the memory as it may cause memory leak.
+
+Compound type: We often need to group a number of variables of different data type for one particular object/data. Structure is used for this purpose. It is a user defined data type where we can use multiple variables of different data type under one data group. In this workshop, we used a structure named ‘Contact’ where it is consist of three variables of two different data type, char and long long integer. It is used to store information of a person, the types of those information are different and structure made it possible to handle these data for different person as per our necessity.
+
+Function overloading: We can use the same name for multiple functions but with different parameters type. For example, in this workshop, in the input.cpp file, we used three getInt functions, but each of them has different type of parameters. This is called function overloading.
+Overall, I have been able to learn and work with the concepts mentioned above by doing this workshop.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

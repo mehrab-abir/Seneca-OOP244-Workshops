@@ -1,0 +1,53 @@
+/***********************************************************************
+
+I have done all the coding by myself and only copied the code that my professor provided to complete my
+workshops and assignments.
+
+Name: Mehrab Jalil Abir
+email: mjabir@myseneca.ca
+Student ID: 164479230
+Section: NRB
+Date: Feb 01, 2025
+
+/////////////////////////////////////////////////////////////////
+***********************************************************************/
+
+This workshop was about creating class, memeber functions and privacy of the attributes. By doing this workshop, I have learned how to use variables and functions inside a class and then invoke those functions outside the class. Also I have got a good grasp of how to use access specifier (Private, public) in the context of class and object. The attributes which are kept under 'public' specifier, can be accessed from outside the class. But there are risks for the variables to get modified accidentally when we do not intend to. That's where we use 'private' for those variables. It ensures that these variables and functions can not be accessed or modified directly, but in a controlled way by using public member functions that has access to the private variables. This makes the variables safe from getting unwanted values as the compiler will point that out for us if there is any unexpected modification of those variables.
+I have practically learned the uses of this concepts through this workshop.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
